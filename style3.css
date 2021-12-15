@@ -14,6 +14,7 @@ body {
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(8, minmax(80px, auto));
   grid-gap: 15px;
+  position: relative;
 }
 .grid div {
   padding: 0px;
@@ -56,13 +57,13 @@ body {
 .paragraph1 {
   grid-row: 2/4;
   grid-column: 6/9;
-  margin: 0px 65px 0px;
+  margin: 0px 90px 0px;
   text-align: justify;
 }
 .paragraph2 {
   grid-row: 5/8;
   grid-column: 6/9;
-  margin: 0px 65px 0px;
+  margin: 20px 90px 0px;
   text-align: justify;
 }
 .braille {
@@ -102,7 +103,7 @@ body {
   grid-row: 4/5;
   grid-column: 2/3;
   width: auto;
-  height: 9px;
+  height: 1vh;
   background-color: #ff4d4f;
   border-radius: 15px;
 }
@@ -110,7 +111,7 @@ body {
   grid-row: 4/5;
   grid-column: 3/4;
   width: auto;
-  height: 9px;
+  height: 1vh;
   background-color: #ff8700;
   border-radius: 15px;
   align-self: center;
@@ -119,7 +120,7 @@ body {
   grid-row: 4/5;
   grid-column: 4/5;
   width: auto;
-  height: 9px;
+  height: 1vh;
   background-color: #fcdd54;
   border-radius: 15px;
 }
@@ -127,7 +128,7 @@ body {
   grid-row: 4/5;
   grid-column: 5/6;
   width: auto;
-  height: 9px;
+  height: 1vh;
   background-color: #00c8b5;
   border-radius: 15px;
 }
@@ -135,7 +136,7 @@ body {
   grid-row: 2/3;
   grid-column: 9/10;
   width: 100%;
-  height: 9px;
+  height: 1vh;
   background-color: #844cef;
   text-align: justify;
   text-align-last: right;
@@ -145,10 +146,8 @@ body {
 /* Text formatting */
 h1 {
   font-family: 'Epilogue', sans-serif;
-  font-size: 20vh;
-  /* margin-top: -10px; */
-  margin-right: -9px;
-  line-height: 160px;
+  font-size: 22vh;
+  line-height: 25vh;
 }
 h2 {
   font-family: 'Epilogue', sans-serif;
@@ -156,22 +155,19 @@ h2 {
 }
 h3 {
   font-family: 'Merriweather', serif;
-  font-size: 5.143vh;
+  font-size: 5.6243vh;
   font-weight: 300;
-  margin-top: -6px;
   text-align: justify;
 }
 h4 {
   font-family: 'Merriweather', serif;
   font-size: 3vh;
-  margin-top: -4px;
 }
 p {
   font-family: 'ABeeZee', sans-serif;
-  font-size: 1.679vh;
+  font-size: 1.7vh;
   color: #a8a8a8;
-  margin-top: -4px;
-  line-height: 2.3vh;
+  line-height: 2.5vh;
 }
 .red-text {
   color: #ff4d4f;
